@@ -52,5 +52,5 @@ func (s *Server) Run(metadata ...string) {
 			}
 		}
 	}
-	faygo.Run()
+	s.Framework.Run()
 }
